@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AMM", "AMM\AMM.csproj", "{059AE689-F097-47EF-8C2F-D0566A5A9E4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddEvenSort", "AddEvenSort\AddEvenSort.csproj", "{8B3DBEF4-3648-47DA-A055-016B6681A7E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortAlgorithms", "Sort\SortAlgorithms.csproj", "{99D7C961-16E3-43DE-8E8B-1192FA9A7564}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixAlgorithms", "MatrixMultiplyAlgorithms\MatrixAlgorithms.csproj", "{0D816B87-F1D6-4A6B-8D2F-A554AB0B8938}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixMultiply", "MatrixMultiply\MatrixMultiply.csproj", "{582624F3-BB82-44AA-801F-30680D0A5B16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FloydWarshall", "FloydWarshall\FloydWarshall.csproj", "{E62A0E15-2C4D-49C3-8B8C-C398DFD960E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{059AE689-F097-47EF-8C2F-D0566A5A9E4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{059AE689-F097-47EF-8C2F-D0566A5A9E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{059AE689-F097-47EF-8C2F-D0566A5A9E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{059AE689-F097-47EF-8C2F-D0566A5A9E4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B3DBEF4-3648-47DA-A055-016B6681A7E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B3DBEF4-3648-47DA-A055-016B6681A7E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B3DBEF4-3648-47DA-A055-016B6681A7E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B3DBEF4-3648-47DA-A055-016B6681A7E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99D7C961-16E3-43DE-8E8B-1192FA9A7564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99D7C961-16E3-43DE-8E8B-1192FA9A7564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99D7C961-16E3-43DE-8E8B-1192FA9A7564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99D7C961-16E3-43DE-8E8B-1192FA9A7564}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D816B87-F1D6-4A6B-8D2F-A554AB0B8938}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D816B87-F1D6-4A6B-8D2F-A554AB0B8938}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D816B87-F1D6-4A6B-8D2F-A554AB0B8938}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D816B87-F1D6-4A6B-8D2F-A554AB0B8938}.Release|Any CPU.Build.0 = Release|Any CPU
+		{582624F3-BB82-44AA-801F-30680D0A5B16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{582624F3-BB82-44AA-801F-30680D0A5B16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{582624F3-BB82-44AA-801F-30680D0A5B16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{582624F3-BB82-44AA-801F-30680D0A5B16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E62A0E15-2C4D-49C3-8B8C-C398DFD960E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E62A0E15-2C4D-49C3-8B8C-C398DFD960E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E62A0E15-2C4D-49C3-8B8C-C398DFD960E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E62A0E15-2C4D-49C3-8B8C-C398DFD960E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

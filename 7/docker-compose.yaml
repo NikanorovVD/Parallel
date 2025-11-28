@@ -1,0 +1,31 @@
+services:
+  backend:
+    image: backend
+    build:
+      context: ./Lab7
+      dockerfile: ./API/Dockerfile
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "8081:80"
+    environment:
+      ASPNETCORE_URLS: https://*:80;http://*:50
+      ConnectionStrings__DefaultConnection: "User ID=${DB_USER};Password=${DB_PASSWORD};Host=db;Port=5432;Database=lab7;"
+  db:
+    image: postgres:16.0
+    environment:
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_DB: lab7
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d postgres" ]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    volumes:
+      - db-data:/var/lib/postgresql/data
+
+volumes:
+  logs:
+  db-data:
